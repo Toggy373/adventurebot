@@ -56,7 +56,7 @@ default_guild = {
     "cooldown": 0,
     "cartroom": None,
     "cart_timeout": 10800,
-    "cooldown_timer_manual": 15,
+    "cooldown_timer_manual": 5,
     "rebirth_cost": 50.0,
     "disallow_withdraw": True,
     "max_allowed_withdraw": 50000,
