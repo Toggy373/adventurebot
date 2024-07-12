@@ -72,7 +72,7 @@ default_global = {
     "schema_version": 1,
     "rebirth_cost": 50.0,
     "themes": {},
-    "daily_bonus": {"1": 2, "2": 2, "3": 2, "4": 2, "5": 2, "6": 2, "7": 2},
+    "daily_bonus": {"1": 10, "2": 10, "3": 10, "4": 10, "5": 10, "6": 10, "7": 10},
     "tax_brackets": {},
     "separate_economy": True,
     "to_conversion_rate": 10,
