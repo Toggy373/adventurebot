@@ -924,18 +924,18 @@ class Adventure(
                 new_challenge = _("Transcended {}").format(challenge.replace("Ascended ", ""))
             no_monster = False
             if monster_roster[challenge]["boss"]:
-                timer = 60 * 5
+                timer = 15
                 challenge_str = _("[{challenge} Alarm!]").format(challenge=new_challenge)
                 text = box(ANSITextColours.red.as_str(challenge_str), lang="ansi")
             elif monster_roster[challenge]["miniboss"]:
-                timer = 60 * 3
+                timer = 15
             else:
-                timer = 60 * 2
+                timer = 15
         else:
             if transcended:
                 # Hide Transcended on Easy mode
                 new_challenge = challenge.replace("Ascended", "")
-            timer = 60 * 3
+            timer = 15
             no_monster = rng.randint(0, 100) == 25
         # if ctx.author.id in DEV_LIST:
         # timer = 20
