@@ -26,7 +26,7 @@ class Negaverse(AdventureMixin):
     """This class will handle negaverse interactions"""
 
     @commands.hybrid_command(name="negaverse", aliases=["nv"], cooldown_after_parsing=True)
-    @commands.cooldown(rate=1, per=3600, type=commands.BucketType.user)
+    @commands.cooldown(rate=1, per=30, type=commands.BucketType.user)
     @commands.guild_only()
     async def _negaverse_command(self, ctx: commands.Context, offering: int):
         """This will send you to fight a nega-member!"""
