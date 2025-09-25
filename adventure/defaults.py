@@ -62,8 +62,8 @@ default_guild = {
     "max_allowed_withdraw": 50000,
 }
 default_global = {
-    "god_name": "Absolute A",
-    "cart_name": "Hawl's brother",
+    "god_name": "Toggy",
+    "cart_name": "Shop",
     "theme": "default",
     "restrict": False,
     "embed": True,
